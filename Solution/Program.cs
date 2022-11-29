@@ -42,3 +42,5 @@ void PrintArray(string[] final)
     }
     Console.Write(" ]");
 }
+
+string[] Array1 = new string[8] { "hello", "2", "world", ":-)", "-2", "yes", "strong", "ok" };
