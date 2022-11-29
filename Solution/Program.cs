@@ -31,3 +31,14 @@ string[] FindAnswer(string[] finder, string[] answer)
     return answer;
 
 }
+
+void PrintArray(string[] final)
+{
+    Console.Write("[ ");
+    for (int i = 0; i < final.Length; i++)
+    {
+        if (i < final.Length - 1) Console.Write($"{final[i]},  ");
+        else Console.Write($"{final[i]}");
+    }
+    Console.Write(" ]");
+}
