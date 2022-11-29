@@ -14,3 +14,20 @@
 
     return find2;
 }
+
+string[] FindAnswer(string[] finder, string[] answer)
+{
+
+    int count = default;
+    for (int i = 0; i < finder.Length; i++)
+    {
+        if (finder[i].Length <= 3)
+        {
+            answer[count] = finder[i];
+            count++;
+        }
+
+    }
+    return answer;
+
+}
