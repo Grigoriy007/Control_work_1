@@ -44,3 +44,7 @@ void PrintArray(string[] final)
 }
 
 string[] Array1 = new string[8] { "hello", "2", "world", ":-)", "-2", "yes", "strong", "ok" };
+
+string[] EmptyArray = FindLength(Array1);
+string[] FinalArray = FindAnswer(Array1, EmptyArray);
+PrintArray(FinalArray);
